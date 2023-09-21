@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Eliminar a {{data.superhero}}</h1>
+<div mat-dialog-content>
+  <p>¿Estás seguro? No se podrá deshacer...</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No</button>
+  <button mat-button (click)="onConfirm()" cdkFocusInitial>Sí</button>
+</div>
+
